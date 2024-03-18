@@ -36,8 +36,13 @@ function Navbar() {
   return (
     <Menu inverted  stackable size='massive'  style={{with:"100%"}}>
       <Container>
-        <Menu.Item header>ABC LAB Appoiment Manegment System</Menu.Item>
+
+       
+        <Menu.Item header> ABC  Lab Appointment System</Menu.Item>
         <Menu.Item as={Link} exact='true' to="/">Home</Menu.Item>
+        <Menu.Item as={Link} exact='true' to="/">About us</Menu.Item>
+        <Menu.Item as={Link} exact='true' to="/">Contact us</Menu.Item>
+        <Menu.Item as={Link} exact='true' to="/">Services</Menu.Item>
         <Menu.Item as={Link} to="/adminpage" style={adminPageStyle()}>AdminPage</Menu.Item>
         <Menu.Item as={Link} to="/userpage" style={userPageStyle()}>UserPage</Menu.Item>
         <Menu.Menu position='right'>

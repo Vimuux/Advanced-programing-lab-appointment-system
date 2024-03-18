@@ -52,7 +52,7 @@ function Login() {
 
   return (
     <Grid textAlign='center' >
-      <Grid.Column style={{ maxWidth: 450,maxHigth:20000}}>
+      <Grid.Column style={{ maxWidth: 460,maxHigth:200000}}>
         <Form size='large' onSubmit={handleSubmit}>
           <Segment>
             <Form.Input

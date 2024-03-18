@@ -55,12 +55,13 @@ function Home() {
 
     <div class="absolute inset-0 flex justify-center items-center">
       <div class="bg-white bg-opacity-80 p-8 rounded-lg shadow-lg max-w-md">
-        <h1 class="text-2xl font-bold mb-4">
-          Welcome to Lab Appoiment System
+        <h1 class="text-xl font-bold mb-4 text-x1">
+
+         {'Welcome to Lab Appoinment System'} 
        
         </h1>
         <Link to='/login'>
-        <center><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">login</button></center>
+        <center><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full">login</button></center>
         
         </Link>
       
